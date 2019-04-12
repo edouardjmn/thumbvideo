@@ -23,6 +23,32 @@
   color: #61dafb;
 }
 
+#main {
+  text-align: center;
+}
+
+#player {
+  width: 320px;
+  margin: 0 auto;
+}
+
+.thumbnailContainer {
+  text-align: center;
+}
+
+.react-thumbnail-generator {
+  position: relative;
+  height: 80px;
+  width: 120px;
+  margin-right: 118px;
+  display: inline;
+  overflow: hidden;
+}
+
+.react-thumbnail-generator > img {
+  position: absolute;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
